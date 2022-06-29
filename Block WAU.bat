@@ -2,35 +2,35 @@
 title BLOCK Win10AU!
 mode con cols=70 lines=15
 color 1f
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                    ½ûÓÃWindows10×Ô¶¯¸üÐÂ                         ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù          Block Windows X Automatic Update By F1tz                ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                   ÇëÏÈÍË³ö360µÈ°²È«¹Ü¼Ò£¡                        ¡ù
-echo ¡ù           ÇëÈ·ÈÏÓÒ¼üÑ¡Ôñ¡°ÒÔ¹ÜÀíÔ±Éí·ÝÔËÐÐ¡±´Ë½Å±¾               ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù         Please quit your Anti-Malware software first!            ¡ù
-echo ¡ù  Make sure Right-click on script select "Run as administrator".  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»                    ç¦ç”¨Windows10è‡ªåŠ¨æ›´æ–°                         â€»
+echo â€»                                                                  â€»
+echo â€»          Block Windows X Automatic Update By F1tz                â€»
+echo â€»                                                                  â€»
+echo â€»                   è¯·å…ˆé€€å‡º360ç­‰å®‰å…¨ç®¡å®¶ï¼                        â€»
+echo â€»           è¯·ç¡®è®¤å³é”®é€‰æ‹©â€œä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œâ€æ­¤è„šæœ¬               â€»
+echo â€»                                                                  â€»
+echo â€»         Please quit your Anti-Malware software first!            â€»
+echo â€»  Make sure Right-click on script select "Run as administrator".  â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 echo.
 pause
 
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                  ½áÊø½ø³Ì / Stopping Process...                  ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»                                                                  â€»
+echo â€»                  ç»“æŸè¿›ç¨‹ / Stopping Process...                  â€»
+echo â€»                                                                  â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 
 taskkill /im Windows10UpgraderApp.exe 2>nul
-del /f /q "%USERPROFILE%\Desktop\Î¢Èí Windows 10 Ò×Éý.lnk" 2>nul
+del /f /q "%USERPROFILE%\Desktop\å¾®è½¯ Windows 10 æ˜“å‡.lnk" 2>nul
 del /f /q "%USERPROFILE%\Desktop\Windows 10 Update Assistant.lnk" 2>nul
 
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù           Ìí¼Ó·À»ðÇ½¹æÔò / Adding firewall rules...              ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»                                                                  â€»
+echo â€»           æ·»åŠ é˜²ç«å¢™è§„åˆ™ / Adding firewall rules...              â€»
+echo â€»                                                                  â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 
 netsh advfirewall firewall add rule name="Block_Windows10UpgraderApp" dir=in program="%SYSTEMDRIVE%\Windows10Upgrade\Windows10UpgraderApp.exe" action=block
 netsh advfirewall firewall add rule name="Block_WinREBootApp32" dir=in program="%SYSTEMDRIVE%\Windows10Upgrade\WinREBootApp32.exe" action=block
@@ -48,40 +48,51 @@ netsh advfirewall firewall add rule name="Block_UpdateAssistantV2" dir=in progra
 netsh advfirewall firewall add rule name="Block_UpdateAssistantCheckV2" dir=in program="%SYSTEMROOT%\UpdateAssistantV2\UpdateAssistantCheck.exe" action=block
 netsh advfirewall firewall add rule name="Block_Windows10UpgradeV2" dir=in program="%SYSTEMROOT%\UpdateAssistantV2\Windows10Upgrade.exe" action=block
 
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                 ÉèÖÃACL / Configurating ACL...                   ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»                                                                  â€»
+echo â€»                 è®¾ç½®ACL / Configurating ACL...                   â€»
+echo â€»                                                                  â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 
 echo y|cacls C:\Windows\UpdateAssistant\*.exe /t /p everyone:n 2>nul
 echo y|cacls C:\Windows10Upgrade\*.exe /t /p everyone:n 2>nul
 echo.
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù         Í£Ö¹Windows Update·þÎñ / Disable Windows Update          ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»                                                                  â€»
+echo â€»         åœæ­¢Windows UpdateæœåŠ¡ / Disable Windows Update          â€»
+echo â€»                                                                  â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 
 net stop wuauserv
 sc config wuauserv start= disabled
 
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                   É¾³ý¼Æ»®ÈÎÎñ / Delete task...                  ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+#echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+#echo â€»                                                                  â€»
+#echo â€»                   åˆ é™¤è®¡åˆ’ä»»åŠ¡ / Delete task...                  â€»
+#echo â€»                                                                  â€»
+#echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 
-schtasks /delete /TN "\Microsoft\Windows\UpdateOrchestrator\UpdateAssistant" /f 2>nul
-schtasks /delete /TN "\Microsoft\Windows\UpdateOrchestrator\UpdateAssistantAllUsersRun" /f 2>nul
-schtasks /delete /TN "\Microsoft\Windows\UpdateOrchestrator\UpdateAssistantCalendarRun" /f 2>nul
-schtasks /delete /TN "\Microsoft\Windows\UpdateOrchestrator\UpdateAssistantWakeupRun" /f 2>nul
+#schtasks /delete /TN "\Microsoft\Windows\UpdateOrchestrator\UpdateAssistant" /f 2>nul
+#schtasks /delete /TN "\Microsoft\Windows\UpdateOrchestrator\UpdateAssistantAllUsersRun" /f 2>nul
+#schtasks /delete /TN "\Microsoft\Windows\UpdateOrchestrator\UpdateAssistantCalendarRun" /f 2>nul
+#schtasks /delete /TN "\Microsoft\Windows\UpdateOrchestrator\UpdateAssistantWakeupRun" /f 2>nul
 
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                 ÉèÖÃ×¢²á±í / Editing Registry...                 ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»                                                                  â€»
+echo â€»                   ç¦ç”¨è®¡åˆ’ä»»åŠ¡ / Disabled task...                  â€»
+echo â€»                                                                  â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+
+schtasks /change /tn "\Microsoft\Windows\UpdateAssistant\UpdateAssistant" /disable
+schtasks /change /tn "\Microsoft\Windows\UpdateAssistant\UpdateAssistantAllUsersRun" /disable
+schtasks /change /tn "\Microsoft\Windows\UpdateAssistant\UpdateAssistantCalendarRun" /disable
+schtasks /change /tn "\Microsoft\Windows\UpdateAssistant\UpdateAssistantWakeupRun" /disable
+
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»                                                                  â€»
+echo â€»                 è®¾ç½®æ³¨å†Œè¡¨ / Editing Registry...                 â€»
+echo â€»                                                                  â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 
 del /q /f %SYSTEMDRIVE%\NAU.reg 2>nul
 echo Windows Registry Editor Version 5.00 >> %SYSTEMDRIVE%\NAU.reg
@@ -94,9 +105,9 @@ echo "NoAutoUpdate"=dword:00000001>> %SYSTEMDRIVE%\NAU.reg
 REG IMPORT %SYSTEMDRIVE%\NAU.reg
 del /q /f %SYSTEMDRIVE%\NAU.reg 2>nul
 
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                       ÈÎÎñ½áÊø / All Done£¡                      ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»                                                                  â€»
+echo â€»                       ä»»åŠ¡ç»“æŸ / All Doneï¼                      â€»
+echo â€»                                                                  â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 pause
